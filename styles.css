@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('caminho/para/a/pasta/fonts/poppins.woff2') format('woff2'),
+         url('caminho/para/a/pasta/fonts/poppins.woff') format('woff');
+    /* Adicione outros formatos de fonte, se disponíveis */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(245, 243, 239);
+  }
+  
+  .glitter-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: 60%;
+    background-color: #d4d0d08e;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 11px 12px 30px -4px rgba(64,61,61,0.52);
+-webkit-box-shadow: 11px 12px 30px -4px rgba(64,61,61,0.52);
+-moz-box-shadow: 11px 12px 30px -4px rgba(64,61,61,0.52);
+overflow: hidden; /* Adiciona a propriedade overflow para cortar o conteúdo */
+z-index: 2; /* Define a ordem de empilhamento para o card */
+  }
+  
+  .card-body {
+    padding: 20px;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bolder;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  /* Opcional: estilos para o texto do card */
+  .card h4 {
+    font-size: 18px;
+    color: #333;
+  }
+  .glitter {
+    position: absolute;
+    width: 2.5px;
+    border-radius: 50%;
+    height: 2.5px;
+    background-color: #1549aa;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 5px #3963d6, 0 0 10px #3561c2, 0 0 20px #4474cc, 0 0 30px #a3c0f5;
+    animation: sparkle 2s linear infinite, fadeInOut 3s linear infinite;
+    z-index: 1; /* Define a ordem de empilhamento para as bolinhas */
+  }
+  
+  @keyframes sparkle {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(2);
+      opacity: 0.9;
+    }
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+
+/*   .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.596);
+
+  } */
