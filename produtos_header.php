@@ -3,7 +3,11 @@
   <div class="navbar-wrapper" style="height: 80px; width: 100%; display:flex; align-items: center;">
     <div class="navbar-header" style="padding-bottom: 0 !important; padding-top: 0 !important; top: 0; position: fixed; height: 80px; display:flex; align-items: center;"><!-- style="width: 100%;" -->
       <a href="produto_index.php" class="navbar-brand d-block d-md-none text-center">
+<<<<<<< HEAD
       <!--   <img src="GraficoColado-1 (1).png" alt="" style="width: 100%;"> -->
+=======
+        <img src="GraficoColado-1 (1).png" alt="" style="width: 100%;">
+>>>>>>> b704b601e5ab4c3b4623f7b0f5b79432faff6b45
       </a>
       <ul class="nav navbar-nav">
         <li class="nav-item mobile-menu hidden-md-up float-xs-left">
@@ -13,7 +17,11 @@
         </li>
         <li class="nav-item d-none d-md-block">
           <a href="produto_index.php" class="navbar-brand" style="padding-bottom: 0 !important; padding-top: 0 !important;">
+<<<<<<< HEAD
             <!-- <img src="GraficoColado-1 (1).png" alt="" style="width: 100% !important;"> -->
+=======
+            <img src="GraficoColado-1 (1).png" alt="" style="width: 100% !important;">
+>>>>>>> b704b601e5ab4c3b4623f7b0f5b79432faff6b45
           </a>
         </li>
       </ul>
